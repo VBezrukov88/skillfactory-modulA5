@@ -1,0 +1,41 @@
+.wrapper {
+	display: flex;
+	font-family: sans-serif;
+	font-size: 20px;
+	line-height: 22px;
+}
+.block {
+	width: 400px;
+	padding: 5px 5px;
+}
+.placeholder {
+	margin-bottom: 2px;
+}
+.input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 15px;
+}
+.text {
+	width: 250px;
+	margin-left: 10px;
+}
+.btn {
+	padding: 0;
+	cursor: pointer;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	border-radius: 1px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #081EEE;
+	transition: 0.1s;
+	border:none;
+
+}
+.btn:hover {
+	transform: scale(1.05);
+}
